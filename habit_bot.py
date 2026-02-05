@@ -7,7 +7,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.storage.memory import MemoryStorage
 
-TOKEN = "8345907409:AAGXak7t3sCptBXMOwKlpMSHs9fC7Kw_0so"
+TOKEN = ""
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
@@ -245,3 +245,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
